@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Healing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🌈 Mood Healing</h1>
+
+    <label for="mood">How are you feeling?</label>
+    <select id="mood">
+        <option value="sad">😢 Sad</option>
+        <option value="angry">😡 Angry</option>
+        <option value="anxious">😰 Anxious</option>
+        <option value="lonely">😔 Lonely</option>
+        <option value="tired">😩 Tired</option>
+    </select>
+
+    <button onclick="generateMoodTherapy()">Heal Me</button>
+    <canvas id="artCanvas" width="400" height="400"></canvas>
+    <audio id="bgMusic" loop></audio>
+    <div id="poemOutput"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
