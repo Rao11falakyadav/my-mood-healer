@@ -9,7 +9,7 @@ This website helps users improve their mood through calming visuals, music, and 
 - Abstract visual art
 
 ## How to Use
-1. Clone the repo: `git clone https://github.com/yourusername/mood-healing.git`
+1. Clone the repo: `git clone https://github.com/Rao11falakyadav/mood-healing.git`
 2. Open `index.html` in your browser.
 3. Choose your mood and relax.
 
